@@ -179,6 +179,9 @@
          autowarmCount - the number of entries to prepopulate from
            and old cache.
          -->
+
+   <!-- If you have a lot of memory, and see a lot evictions, you may increase the cache settings -->
+  
     <filterCache
       class="solr.FastLRUCache"
       size="16384"
