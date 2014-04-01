@@ -181,9 +181,9 @@
          -->
     <filterCache
       class="solr.FastLRUCache"
-      size="300000"
-      initialSize="300000"
-      autowarmCount="50000"/>
+      size="16384"
+      initialSize="4096"
+      autowarmCount="4096"/>
 
    <!-- queryResultCache caches results of searches - ordered lists of
          document ids (DocList) based on a query, a sort, and the range
